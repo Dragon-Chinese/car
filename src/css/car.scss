@@ -1,0 +1,96 @@
+
+.car {
+    header {
+        height: .6rem;
+        line-height: .6rem;
+        width: 100%;
+        background: #79cd92;
+        text-align: center;
+        z-index: 99;
+        color: white;
+        font-size: .26rem;
+    }
+    .header {
+      background: #fff;
+        padding: .32rem .18rem .24rem;
+        position: relative;
+        height: 2rem;
+        box-sizing: border-box;
+        display: flex;
+        img{
+            height: 1.41rem;
+            width: 2.3rem;
+            border: 1px solid #ccc;
+            border-radius: .2rem;
+        }
+        .right {
+            margin-left: .2rem;
+            width: 4.3rem;
+            p{
+                font-size: .36rem;
+                line-height: 1;
+            }
+            span{
+                display: block;
+                margin-top: .26rem;
+                font-size: .32rem;
+                line-height: 1.2;
+                color: #333;
+            }
+        }
+    }
+    .tip {
+        padding: 0 .2rem;
+        height: .5rem;
+        line-height: .5rem;
+        font-size: .24rem;
+        color: #666;
+        background: #eee;
+    }
+    .self-info {
+        ul{
+            background: #fff;
+            padding: 0 .2rem;
+            li {
+                font-size: .32rem;
+                height: .88rem;
+                line-height: .88rem;
+                border-bottom: 1px solid #eee;
+                box-sizing: border-box;
+                color: #000;
+                input{
+                    font-size: .32rem;
+                    padding-right: .2rem;
+                    width: 88%;
+                    text-align: right;
+                    box-sizing: border-box;
+                    color: #555;
+                    border: none;
+                }
+               span:nth-child(2) {
+                    display: inline-block;
+                    width: 88%;
+                    color: #555;
+                    text-align: right;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .quotation {
+                background: #fff;
+                text-align: center;
+                padding-top: .3rem;
+                padding-bottom: .28rem;
+                button {
+                    font-size: .32rem;
+                    color: #fff;
+                    width: 80%;
+                    background: #3aacff;
+                    height: .7rem;
+                    border-radius: .1rem;
+                    border: none;
+                    outline: none;
+                }
+        }
+    }
+}

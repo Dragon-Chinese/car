@@ -1,5 +1,5 @@
 {
-  "name": "ll",
+  "name": "car",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "dragon <1317235369@qq.com>",
@@ -53,6 +53,7 @@
     "shelljs": "^0.7.6",
     "uglifyjs-webpack-plugin": "^1.1.1",
     "url-loader": "^0.5.8",
+    "vue-lazyload": "^1.2.6",
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
