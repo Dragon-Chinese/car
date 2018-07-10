@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/components/index'
 import Detail from '@/components/details'
 import Car from '@/components/shopcar'
+import Picture from '@/components/picture'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/car',
       name: 'Car',
       component: Car
+    },
+    {
+      path: '/picture',
+      name: 'Picture',
+      component: Picture
     }
   ]
 })

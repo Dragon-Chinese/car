@@ -1,8 +1,10 @@
 <template>
   <div class="wrap detail">
       <header class="header">
-          <img :src="ImgUrl" alt="">
-          <p>{{list.pic_group_count}}张照片</p>
+          <router-link :to="{path:'/picture' , query : {id : list.SerialID}}">
+            <img :src="ImgUrl" alt="">
+            <p>{{list.pic_group_count}}张照片</p>
+          </router-link>
       </header>
       <nav class="nav">
           <div class="price">
@@ -45,7 +47,7 @@
   </div>
 </template>
 <script>
-// pic_group_count
+// https://baojia.chelun.com/v2-car-getImageList.html?SerialID=2593
 export default {
   data () {
     return {
