@@ -1,9 +1,35 @@
 .pic {
+
+    .header {
+            position: fixed;
+            background: #fff;
+            top: 0;
+            width: 100%;
+            height: .8rem;
+            -webkit-box-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            display:flex;
+            span {
+                flex: 1;
+                text-align: center;
+                box-sizing: border-box;
+                color: #454545;
+                display: inline-block;
+                font-size: .28rem;
+            }
+    }
+    .img_list{
+            overflow: hidden;
+            position: absolute;
+            background: #fff;
+            top: .8rem;
+            bottom: 0;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+            border-bottom: .4rem solid #f4f4f4;
+    }
   ul{
-        overflow: hidden;
-        background: #fff;
-        overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
         li{
             position: relative;
             float: left;
@@ -13,11 +39,14 @@
             text-align: center;
             margin-right: .04rem;
             margin-bottom: .06rem;
-            img {
+            span{
                 width: 100%;
                 height: 100%;
-            }
-            div {
+                background-size: cover;
+                display: inline-block;
+             }
+            a {
+                display:block;
                 position: absolute;
                 top: 0;
                 width: 100%;

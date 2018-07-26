@@ -4,6 +4,7 @@ import Index from '@/components/index'
 import Detail from '@/components/details'
 import Car from '@/components/shopcar'
 import Picture from '@/components/picture'
+import Picpage from '@/components/picpage/index'
 
 Vue.use(Router)
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/picture',
       name: 'Picture',
       component: Picture
+    },
+     {
+      path: '/picpage',
+      name: 'Picpage',
+      component: Picpage
     }
   ]
 })

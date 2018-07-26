@@ -115,6 +115,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-@import '../css/detail.css';
+<style lang="scss">
+@import '../css/detail.scss';
 </style>

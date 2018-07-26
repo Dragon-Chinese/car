@@ -68,6 +68,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-@import '../../css/Right.min.css';
+<style lang="scss">
+@import '../../css/Right.scss';
 </style>

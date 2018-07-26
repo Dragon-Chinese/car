@@ -27,7 +27,6 @@ export default {
     };
   },
   methods: {
-    //   https://baojia.chelun.com/v2-dealer-alllist.html?carId=126282
   },
   mounted() {
     fetch(
@@ -45,6 +44,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-@import "../css/car.min.css";
+<style lang="scss">
+@import "../css/car.scss";
 </style>

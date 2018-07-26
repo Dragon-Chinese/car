@@ -10,6 +10,6 @@ export default {
 }
 </script>
 
-<style>
-@import './css/index.min.css'
+<style lang='scss'>
+@import './css/index.scss'
 </style>
